@@ -12,12 +12,12 @@
     <title>General Hopper</title>
 </head>
 <body>
-    <div>
-        <p><c:out value="${name}"/></p>
-        <p><c:out value="${itemName}"/></p>
-        <p><c:out value="${price}"/></p>
-        <p><c:out value="${description}"/></p>
-        <p><c:out value="${vendor}"/></p>
-    </div>
+<div>
+    <p>Customer Name: <c:out value="${name}"/></p>
+    <p>Item Name: <c:out value="${itemName}"/></p>
+    <p>Price: <c:out value="${price}"/></p>
+    <p>Description: <c:out value="${description}"/></p>
+    <p>Vendor: <c:out value="${vendor}"/></p>
+</div>
 </body>
 </html>
