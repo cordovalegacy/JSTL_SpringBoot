@@ -10,10 +10,12 @@
 <html>
 <head>
     <title>General Hopper</title>
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
+<%--    <script type="text/javascript" src="/js/app.js" defer></script>--%>
 </head>
 <body>
-<div>
-    <p>Customer Name: <c:out value="${name}"/></p>
+<div class="flex-box bg-blue text-amber">
+    <p class="word">Customer Name: <c:out value="${name}"/></p>
     <p>Item Name: <c:out value="${itemName}"/></p>
     <p>Price: <c:out value="${price}"/></p>
     <p>Description: <c:out value="${description}"/></p>
