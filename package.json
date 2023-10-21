@@ -1,0 +1,27 @@
+{
+  "name": "jstl_springboot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:postcss": "postcss src/main/resources/static/css/style.tailwind.css -o target/classes/static/css/style.build.tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cordovalegacy/JSTL_SpringBoot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cordovalegacy/JSTL_SpringBoot/issues"
+  },
+  "homepage": "https://github.com/cordovalegacy/JSTL_SpringBoot#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.3"
+  }
+}
